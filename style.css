@@ -55,6 +55,22 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
+/*1 er texte en image corrriger*/
+.col-sm-12 p{
+    font-size: 25px;
+    font-weight: 300;
+}
+/* 2em text en image corriger*/
+.col-xs-12 .p1{
+    font-size: 20px;
+    font-weight: 300;
+}
+/*application flex box center les 2 dernier image */
+.col-sm-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .bg-center,
 .bg-l-edge,
@@ -822,7 +838,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
