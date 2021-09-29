@@ -322,8 +322,8 @@ a:hover {
 }
 
 .navbar-brand img {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width:auto ;
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
@@ -800,7 +800,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
